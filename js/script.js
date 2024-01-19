@@ -8,8 +8,6 @@ function calculate() {
     var r1 = (Math.exp(s1) / (1 + Math.exp(s1))) * 100;
     var r2 = (Math.exp(s2) / (1 + Math.exp(s2))) * 100;
 
-    // document.getElementById("resultS1").innerText = "S1: " + s1.toFixed(2);
-    // document.getElementById("resultS2").innerText = "S2: " + s2.toFixed(2);
     document.getElementById("resultR1").innerText =
       "Пременопауза: " + r1.toFixed(2) + "%";
     document.getElementById("resultR2").innerText =

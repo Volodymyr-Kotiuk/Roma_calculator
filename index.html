@@ -10,17 +10,31 @@
     <h2>Roma calculator</h2>
 
     <label for="p1">HE-4:</label>
-    <input type="number" id="p1" placeholder="Enter HE-4" />
+
+    <input
+      type="text"
+      id="p1"
+      placeholder="Enter HE-4"
+      readonly
+      onfocus="this.removeAttribute('readonly');"
+      autocomplete="off"
+    />
 
     <label for="p2">CA-125:</label>
-    <input type="number" id="p2" placeholder="Enter CA-125" />
+
+    <input
+      type="text"
+      id="p2"
+      placeholder="Enter CA-125"
+      readonly
+      onfocus="this.removeAttribute('readonly');"
+      autocomplete="off"
+    />
 
     <button onclick="calculate()">Calculate</button>
 
     <h3>Results:</h3>
 
-    <!-- <p id="resultS1"></p>
-    <p id="resultS2"></p> -->
     <p id="resultR1"></p>
     <p id="resultR2"></p>
 
